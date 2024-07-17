@@ -5,13 +5,13 @@ function Icons() {
     <div>
         <label className="swap swap-flip font-mono font-semibold">
             <input type="checkbox" />
-            <div className="swap-on bg-black menu menu-horizontal rounded-box">
-                <div className='font-mono font-semibold text-2xl m-auto text-white'>Contact Me
+            <div className="swap-on bg-black menu menu-horizontal rounded-box w-50">
+                <div className='font-mono font-semibold text-2xl m-auto text-white px-2'>Connect with me
                 </div>
             </div>
                 <div className="swap-off">
-                    <ul className="bg-black menu menu-horizontal rounded-box">
-                        <li>
+                    <ul className="bg-black menu menu-horizontal rounded-box w-60">
+                        <li className='m-auto'>
                             <a href="mailto:oceanlakra14@gmail.com">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ function Icons() {
                                 </svg>
                             </a>
                         </li>
-                        <li>
+                        <li className='m-auto'>
                             <a href='https://www.linkedin.com/in/ocean-lakra-6014b0253/' target='_blank'>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Icons() {
                             </svg>
                             </a>
                         </li>
-                        <li>
+                        <li className='m-auto'>
                             <a href='https://github.com/oceanlakra' target='_blank'>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

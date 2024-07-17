@@ -10,7 +10,7 @@ function Navbar(props) {
             <a className="font-semibold font-mono ml-4 text-4xl text-white">{props.name}</a>
         </div>
             <div className="flex-none">
-                < Icons/>
+                <Icons/>
             </div>
         </div>
     </div>

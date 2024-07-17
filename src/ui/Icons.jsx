@@ -5,11 +5,11 @@ function Icons() {
     <div>
         <label className="swap swap-flip font-mono font-semibold">
             <input type="checkbox" />
-            <div className="swap-on bg-black menu menu-horizontal rounded-box w-50">
+            <div className="swap-off bg-black menu menu-horizontal rounded-box w-50">
                 <div className='font-mono font-semibold text-2xl m-auto text-white px-2'>Connect with me
                 </div>
             </div>
-                <div className="swap-off">
+                <div className="swap-on">
                     <ul className="bg-black menu menu-horizontal rounded-box w-60">
                         <li className='m-auto'>
                             <a href="mailto:oceanlakra14@gmail.com">

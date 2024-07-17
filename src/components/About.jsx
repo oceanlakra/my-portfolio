@@ -10,7 +10,7 @@ function About() {
         <div className="card card-side bg-zinc-800 shadow-xl m-4 mb-10">
             <figure>
                 <img
-                src="src\assets\avatar.png"
+                src="src/assets/avatar.png"
                 alt="Movie" 
                 className='w-80 h-80 m-8 rounded-full'/>
             </figure>
@@ -22,7 +22,7 @@ function About() {
                     <dialog id="my_modal_2" className="modal">
                     <div className="modal-box">
                     <div>
-                        <PdfViewer pdfUrl="src\assets\Ocean_Resume.pdf" />
+                        <PdfViewer pdfUrl="src/assets/Ocean_Resume.pdf" />
                     </div>
                     </div>
                     <form method="dialog" className="modal-backdrop">

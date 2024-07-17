@@ -6,7 +6,7 @@ function Navbar(props) {
     <div>
       <div className="navbar bg-zinc-800 rounded-box mb-8">
         <div className="flex-1">
-            <Avatar imgPath='src/assets/avatar.png'/>
+            <Avatar imgPath='/assets/avatar.png'/>
             <a className="font-semibold font-mono ml-4 text-4xl text-white">{props.name}</a>
         </div>
             <div className="flex-none">

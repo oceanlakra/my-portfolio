@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
-const TypingEffect = () => {
+const TypingEffect = (props) => {
   const [text] = useTypewriter({
-    words: ['Ocean Lakra', 'an aspiring Web Developer', 'a Freelancer', 'a Computer Science Student', 'a Machine Learning Student'],
+    words: props.words,
     loop: 0, // Number of loops (0 means infinite)
     typeSpeed: 100,
     deleteSpeed: 50,
